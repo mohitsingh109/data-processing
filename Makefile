@@ -1,4 +1,4 @@
 .PHONY: install
 
 install:
-    uv sync
+	uv sync
