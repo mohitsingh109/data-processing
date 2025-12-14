@@ -131,6 +131,27 @@ for value in person.values():
 from math import sqrt
 print(sqrt(16))
 
+def calculate_real_time_value():
+    pass
+
+class DP:
+    pass
+
+new_list = ["col1", "col2", "col3"]
+
+print(new_list[1:4])
+
+print(new_list[-1])
+
+del new_list[-1] # delete by index
+
+print(new_list[-1])
+
+number = [1, 2, 3, 4, 5]
+
+squared_numbers = [x**2 for x in number if x % 2 == 0]
+
+print(squared_numbers)
 
 # __init__, self, decorator, ABC class, index
 # pandas, numpy
