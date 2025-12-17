@@ -153,6 +153,8 @@ squared_numbers = [x**2 for x in number if x % 2 == 0]
 
 print(squared_numbers)
 
+
+
 # __init__, self, decorator, ABC class, index
 # pandas, numpy
 # sql alchemy

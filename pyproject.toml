@@ -7,7 +7,7 @@ requires-python = ">=3.14"
 dependencies = [
     "flask>=3.1.2", # Rest endpoint framework
     "gunicorn>=23.0.0",
-    "numpy>=2.3.5",
+    "numpy>=2.3.5", # c language based high performance array processing library
     "oracledb>=3.4.1",
     "pandas>=2.3.3", # Data processing library
     "pydantic>=2.12.5", # you can define data types and validate data easily
