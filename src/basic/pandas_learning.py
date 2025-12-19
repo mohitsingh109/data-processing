@@ -20,6 +20,7 @@ print(df)
 # write csv
 df.to_csv("output.csv", index=False)
 df.to_json("output.json", index=False)
+#df.to_parquet("output.parquet", index=False)
 
 new_df = pd.read_csv("output.csv")
 print("=========From CVS==========")
