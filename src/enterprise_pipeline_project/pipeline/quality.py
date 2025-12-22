@@ -13,4 +13,4 @@ def validate_dataframe(df: DataFrame, name: str):
 
     log.info(f"DataFrame {name} passed quality checks.")
 
-print(f"I am inside a quality file File name: {__name__}")
+#print(f"I am inside a quality File name: {__name__}")
